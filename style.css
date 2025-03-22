@@ -1,0 +1,49 @@
+body {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100vh;
+}
+
+.pingpong {
+  border: 1px solid black;
+  width: 500px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.one {
+  color: blue;
+}
+.two {
+  color: green;
+}
+.three {
+  color: red;
+}
+.zero {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 10px;
+}
+
+.btn1 {
+  background-color: blue;
+  width: 100px;
+  padding: 8px;
+  border-radius: 5px;
+}
+.btn2 {
+  background-color: red;
+  width: 100px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.btn3 {
+  background-color: green;
+  width: 100px;
+  padding: 10px;
+  border-radius: 5px;
+}
